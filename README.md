@@ -1,4 +1,4 @@
-# Deep Neural Network with keras-Python: Satellite-Image Classification
+# Deep Neural Network with keras(TensorFlow GPU backend) Python: Satellite-Image Classification
 
 This tutorial  will show how to implement [Deep Neural Network](https://en.wikipedia.org/wiki/Deep_learning) for [pixel based](https://gis.stackexchange.com/questions/237461/distinction-between-pixel-based-and-object-based-classification) [supervised classification ](https://articles.extension.org/pages/40214/whats-the-difference-between-a-supervised-and-unsupervised-image-classification) of [Sentinel-2 multispectral images](https://sentinel.esa.int/web/sentinel/missions/sentinel-2) using [keras](https://keras.io/#installation/) package in [Anaconda 5.1 Python 3.6](https://www.anaconda.com/download/#download/) under [Windows 10](https://www.microsoft.com/en-us/software-download/windows10).
 
@@ -12,4 +12,4 @@ This tutorial  will show how to implement [Deep Neural Network](https://en.wikip
 
 Detail installation steps of Keras backend Tensorflow can be found [here](https://keras.io/#installation).
 
-First, we will split "point_data" into a training set (75% of the data), a validation set (12%) and a test set (13%) data.The validation data set will be used to optimize the model parameters during training process.The model's performance will be tested with the data set and then we will predict landuse clasess on grid data set. The point and grid data can be download as [rar](https://www.dropbox.com/s/l94zhzwjrc3lkk7/Point_Grid_Data.rar?dl=0), [7z](https://www.dropbox.com/s/77qk7raj48z0151/Point_Grid_Data.7z?dl=0) and [zip](https://www.dropbox.com/s/007vd9vayn60c2s/Point_Grid_Data.zip?dl=0) format.
+First, we will split "point_data" into a training set (75% of the data), a validation set (12%) and a test set (13%) data.The validation data set will be used to optimize the model parameters during training process.The model's performance will be tested with the test data set and then we will predict landuse clasess on grid data set. The point and grid data can be download as [rar](https://www.dropbox.com/s/l94zhzwjrc3lkk7/Point_Grid_Data.rar?dl=0), [7z](https://www.dropbox.com/s/77qk7raj48z0151/Point_Grid_Data.7z?dl=0) and [zip](https://www.dropbox.com/s/007vd9vayn60c2s/Point_Grid_Data.zip?dl=0) format.
